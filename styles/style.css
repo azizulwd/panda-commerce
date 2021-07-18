@@ -1,0 +1,14 @@
+.slider_bg{
+    background: #fceae8;
+}
+.meganta_color{
+    color: #ff136f;
+}
+.buy_now_btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    padding: 9px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
