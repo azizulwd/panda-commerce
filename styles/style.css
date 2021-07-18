@@ -12,3 +12,12 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.catagorie_1{
+    background: orange;
+}
+.catagorie_2{
+    background: orchid;
+}
+.catagorie_3{
+    background: blue;
+}
