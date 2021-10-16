@@ -1,6 +1,6 @@
 let allH5 = document.querySelectorAll("h5");
 for(let allh2Element of allH5){
-    allh2Element.style.color = "lightblue";
+    allh2Element.style.color = "tomato";
 }
 
 let card = document.querySelectorAll(".card");
@@ -68,3 +68,11 @@ function changeImages(imageId, imageSrc){
 changeImages(changeImgOne, "images/shoes/shoe-3.png");
 changeImages(changeImgTwo, "images/shoes/shoe-1.png");
 changeImages(changeImgThree, "images/shoes/shoe-2.png");
+
+
+// enabled & disabled dark mode full functionality comming soon....
+const bgChange = document.getElementById("bg_change");
+bgChange.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'black';
+    bgChange.innerText = "Light Mode";
+});
